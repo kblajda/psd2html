@@ -5,19 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Agency PSD</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- build:css -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/base.css">
+
     <!-- endbuild -->
 </head>
 
-<body>
-    <h1>hello world!!!</h1>
+<body id="page-top">
+    <header class="header">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg  fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger navbar__brand" href="#page-top">Interactive<span
+                        class="navbar__brand--light">Agency</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto menu">
+                        <li class="nav-item menu__item">
+                            <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#aboutus">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#offer">Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="heading">
+            <h1 class="heading__head">Lorem ipsum dolor sit amet</h1>
+            <p class="heading__subhead">Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
+            <a href="" class="heading__bttn main__bttn"><span>Ask for price</span></a>
+        </div>
+        <div class="scrollSite">
+            <a href="#" class="scrollSite__link"><img src="img/scrollDown.svg" class="scrollSite__icon" alt="mouse">
+                <p class="scrollSite__text">scrool down</p>
+            </a>
+        </div>
+    </header>
+    <section class="aboutUs">
+        <div class="container">
+            <div class="row">
+                <div class="aboutUs__wrapp">
+                    <div class="col-lg-12">
+                        <div class="aboutUs__head">
+                            <h2 class="aboutUs__headingMain">About us!</h2>
+                            <p class="aboutUs__subheading">Aliquam sagittis neque in lectus semper, nec elementum arcu
+                                scelerisque. Curabitur ullamcorper auctor mauris, placerat fermentum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- build:js -->
-    <script src="js/plugins.js"></script>
+    <script src="js/scrolling-nav.js"></script>
     <script src="js/script.js"></script>
     <!-- endbuild -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
